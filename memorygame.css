@@ -1,0 +1,38 @@
+#game div {
+    border: 1px solid black;
+    width: 15%;
+    height: 200px;
+    margin: 10px;
+    display: inline-block;
+    transition: all 500ms;
+}
+
+.red.flipped {
+    background-color: red;
+    transition: all 500ms;
+}
+
+.blue.flipped {
+    background-color: blue;
+    transition: all 500ms;
+}
+
+.green.flipped {
+    background-color: green;
+    transition: all 500ms;
+}
+
+.orange.flipped {
+    background-color: orange;
+    transition: all 500ms;
+}
+
+.purple.flipped {
+    background-color: purple;
+    transition: all 500ms;
+}
+
+.inactive {
+    opacity: 0.5;
+    background-color: grey;
+}
